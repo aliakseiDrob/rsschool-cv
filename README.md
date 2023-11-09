@@ -1,1 +1,1 @@
-# rsschool-cv
+https://aliakseiDrob.github.io/rsschool-cv/
