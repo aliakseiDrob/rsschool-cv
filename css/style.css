@@ -102,3 +102,7 @@ html {
 .email::before {
   background-image: url("../assets/svg/email.svg");
 }
+
+.language-level {
+  margin: 10px;
+}
