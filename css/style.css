@@ -106,3 +106,18 @@ html {
 .language-level {
   margin: 10px;
 }
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #588157;
+}
+
+.rs-school {
+  width: 100px;
+  height: auto;
+}
