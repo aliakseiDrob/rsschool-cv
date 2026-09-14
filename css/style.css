@@ -90,3 +90,15 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.adress:before {
+  background-image: url("../assets/svg/location.svg");
+}
+
+.git-hub::before {
+  background-image: url("../assets/svg/github.svg");
+}
+
+.email::before {
+  background-image: url("../assets/svg/email.svg");
+}
