@@ -28,10 +28,6 @@ html {
   margin-bottom: 5px;
 }
 
-.list {
-  list-style: none;
-}
-
 .link {
   text-decoration: none;
   color: #2f3e46;
@@ -53,6 +49,7 @@ html {
   justify-content: flex-end;
   flex-wrap: wrap;
   gap: 30px;
+  list-style: none;
 }
 
 .personal-info-wrapper {
