@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f3e46;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper_colored {
+  background-color: #b0c4b1;
+}
+
+.section-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #2f3e46;
+}
+
+.link:hover {
+  color: #354f52;
+}
+
+.header-wrapper {
+  justify-content: end;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #588157;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.personal-info-wrapper {
+  gap: 60px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.first-last-name {
+  font-size: 48px;
+}
+
+.contacts-list {
+  display: block;
+  list-style: none;
+}
+
+.contacts-item {
+  position: relative;
+  margin: 20px 0 20px 30px;
+}
+
+.contacts-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
