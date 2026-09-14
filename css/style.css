@@ -2,11 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .body {
   margin: 0;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif, system-ui;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #2f3e46;
 }
 
@@ -17,6 +21,7 @@ html {
   display: flex;
   flex-direction: column;
 }
+
 .wrapper_colored {
   background-color: #b0c4b1;
 }
@@ -38,8 +43,8 @@ html {
 }
 
 .header-wrapper {
-  justify-content: end;
-  font-size: 24px;
+  justify-content: flex-end;
+  font-size: 1.5rem;
   font-weight: 500;
   background-color: #588157;
 }
